@@ -24,8 +24,8 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
-}
-// Tokyo
+
+  // Tokyo
   let tokyoElement = document.querySelector("#tokyo");
   if (tokyoElement) {
     let tokyoDateElement = tokyoElement.querySelector(".date");
@@ -38,7 +38,6 @@ function updateTime() {
     );
   }
 }
-
 
 function updateCity(event) {
   let cityTimeZone = event.target.value;
